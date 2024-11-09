@@ -1,0 +1,67 @@
+body {
+    background: url(https://c4.wallpaperflare.com/wallpaper/632/624/842/tenki-no-ko-hodaka-morishima-hina-amano-weathering-with-you-sky-hd-wallpaper-preview.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.box {
+    background-color: rgba(0, 0, 139, 0.800);
+    margin: 50px auto;
+    width: 85%;
+    border: solid 3px;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 30px;
+    box-shadow: 3px 3px rgba(255, 255, 255, 0.477);
+}
+
+.judul {
+    text-align: center;
+    color: white;
+    border-bottom: solid 3px;
+    border-bottom-style: dashed;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 7vw;
+    margin-right: 7vw;    
+}
+
+.inputbox {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    border-color: black;
+}
+
+.pilihan {
+    margin-left: 7vw;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 3px 20px 3px 20px;
+    border: solid 2px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: darkblue;
+    border-color: black;
+}
+
+span {
+    color: white;
+}
